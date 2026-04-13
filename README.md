@@ -1,7 +1,9 @@
+AI-Powered Incident Analyzer (Spring Boot | Docker | Kubernetes | RAG-Ready)
+
 # 🚀 AI-Powered Incident Analyzer (PoC)
 
 ## 📌 Overview
-
+This system is designed to integrate with LLMs and RAG pipelines for intelligent log analysis and automated root cause detection.
 This project is a Spring Boot-based microservice that analyzes application logs and provides:
 
 * Error identification
