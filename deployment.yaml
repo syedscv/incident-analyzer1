@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-analyzer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: incident-analyzer
+  template:
+    metadata:
+      labels:
+        app: incident-analyzer
+    spec:
+      containers:
+        - name: incident-analyzer
+          image: incident-analyzer:latest
+          ports:
+            - containerPort: 8080
