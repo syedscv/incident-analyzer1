@@ -202,4 +202,4 @@ While currently rule-based, the architecture is designed to seamlessly integrate
 
 ## 👨‍💻 Author
 
-Developed as part of a rapid PoC to demonstrate backend engineering, cloud readiness, and AI integration capability.
+Developed as part of a PoC to demonstrate backend engineering, cloud readiness, and AI integration capability.
