@@ -1,8 +1,8 @@
 AI-Powered Incident Analyzer (Spring Boot | Docker | Kubernetes | RAG-Ready)
 
-# 🚀 AI-Powered Incident Analyzer (PoC)
+# AI-Powered Incident Analyzer (PoC)
 
-## 📌 Overview
+## Overview
 This system is designed to integrate with LLMs and RAG pipelines for intelligent log analysis and automated root cause detection.
 This project is a Spring Boot-based microservice that analyzes application logs and provides:
 
@@ -15,7 +15,7 @@ It simulates an **AI-powered incident analysis system**, designed to be extended
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Java 17
 * Spring Boot 3.x
@@ -28,7 +28,7 @@ It simulates an **AI-powered incident analysis system**, designed to be extended
 
 ---
 
-## 🔥 Features
+## Features
 
 * Analyze logs via REST API
 * Detect common errors:
@@ -50,7 +50,7 @@ It simulates an **AI-powered incident analysis system**, designed to be extended
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 🔹 1. Analyze Incident
 
@@ -91,7 +91,7 @@ Incident Analyzer is running
 
 ---
 
-## 📖 Swagger UI
+##  Swagger UI
 
 Access Swagger UI for testing APIs:
 
@@ -101,9 +101,9 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-## 🧪 Running the Application
+##  Running the Application
 
-### ▶️ Using Maven
+### Using Maven
 
 ```bash
 ./mvnw spring-boot:run
@@ -111,7 +111,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-### 🧪 Running Tests
+### Running Tests
 
 ```bash
 ./mvnw test
@@ -119,15 +119,15 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-## 🐳 Docker
+## Docker
 
-### 🔨 Build Image
+### Build Image
 
 ```bash
 docker build -t incident-analyzer .
 ```
 
-### ▶️ Run Container
+### Run Container
 
 ```bash
 docker run -p 8080:8080 incident-analyzer
@@ -135,7 +135,7 @@ docker run -p 8080:8080 incident-analyzer
 
 ---
 
-## ☸️ Kubernetes Deployment
+## Kubernetes Deployment
 
 ### Apply Deployment
 
@@ -151,7 +151,7 @@ kubectl apply -f service.yaml
 
 ---
 
-## 🧠 Architecture (High-Level)
+## Architecture (High-Level)
 
 ```
 Client → REST API → Incident Analyzer Service → (Future: AI/RAG Service)
@@ -159,7 +159,7 @@ Client → REST API → Incident Analyzer Service → (Future: AI/RAG Service)
 
 ---
 
-## 🤖 Future Enhancements (AI Integration)
+## Future Enhancements (AI Integration)
 
 This PoC is designed to evolve into a full AI-powered system:
 
@@ -181,7 +181,7 @@ This PoC is designed to evolve into a full AI-powered system:
 
 ---
 
-## 🎯 Use Case
+## Use Case
 
 This system can be used by service-based companies (e.g., Capgemini) to:
 
@@ -192,7 +192,7 @@ This system can be used by service-based companies (e.g., Capgemini) to:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates how AI can enhance incident management systems by automating log analysis and providing intelligent insights.
 
@@ -200,6 +200,4 @@ While currently rule-based, the architecture is designed to seamlessly integrate
 
 ---
 
-## 👨‍💻 Author
 
-Developed as part of a PoC to demonstrate backend engineering, cloud readiness, and AI integration capability.
